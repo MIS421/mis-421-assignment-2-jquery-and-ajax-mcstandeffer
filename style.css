@@ -1,1 +1,38 @@
- 
+body {
+    background-image: url('https://media.istockphoto.com/id/519760984/photo/starry-night.webp?b=1&s=170667a&w=0&k=20&c=DYyATooiuzUMnrB2cxV8C45StNjAaDZ9Y-G-E7hsi4g=');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#searchResults, #time {
+    /*visibility: hidden; */
+    display: none;
+}
+
+#myHeader{
+    color: purple;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+#query {
+    display: block; 
+    margin: 0 auto;
+    
+}
+#searchButton {
+    display: block; 
+    margin: 0 auto;
+}
+#timeButton {
+    display: block; 
+    margin: 0 auto;
+}
+#luckyButton {
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    cursor: pointer;
+}

@@ -3,14 +3,30 @@
 <html lang="en">
 
 <head>
+    <title>Over the Horizon</title>
 
-  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/trontastic/jquery-ui.css" integrity="sha384-7m06fX55fqsGVk+WUIloiM6JrH8nfXyVmwVL2Ot6aL7Ft+bmotmTp/Jz0ar1xJha" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header>
+        <h1 class="myHeader" id="myHeader">Over the Horizon</h1>
+    </header>
 
-  <script type="text/javascript" src="./script.js"></script>
+    <input type="text" id="query" name="query" placeholder="Enter here"> <br />
+    <button type="submit" id="searchButton">Search</button> <br />
+    <button type="submit" id="timeButton">Display Time</button> <br />
+   <!-- <button type="submit" id="luckyButton">I'm Feeling Lucky</button>-->
+    <div id="searchResults"></div>
+
+    <div id="time"></div>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
